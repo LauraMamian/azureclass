@@ -1,0 +1,189 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+main {
+	margin: auto;
+	width: 50%;
+	padding: 20px;
+}
+
+main>h1 {
+	text-align: center;
+	font-size: 3.5em;
+}
+
+/*Utilities*/
+
+/*Buttons*/
+
+.btn {
+	color: white;
+	background-color: gray;
+	text-decoration: none;
+	border-radius: 0.5cm;
+	border: none;
+	text-align: center;
+	outline: none;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.btn-orange {
+	background-color: #E08709;
+}
+
+.btn-green {
+	background-color: #71B100;
+}
+
+.btn-blue {
+	background-color: #098AE0;
+}
+
+.btn-purple {
+	background-color: #A309E0;
+}
+
+.btn-red {
+	background-color: #e01709;
+}
+
+.btn-special {
+	background: none;
+	background: linear-gradient(to right, #E00986, #9C09E0);
+}
+
+/*Tables*/
+
+.tbl {
+	text-align: center;
+	color: black;
+}
+
+.tbl tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.tbl-orange thead {
+	background-color: #E08709;
+	color: white;
+}
+
+.tbl-orange tr:hover {
+	background-color: #E08709;
+	color: #ffffff;
+}
+
+.tbl-green thead {
+	background-color: #71B100;
+	color: white;
+}
+
+.tbl-green tr:hover {
+	background-color: #71B100;
+	color: #ffffff;
+}
+
+.tbl-blue thead {
+	background-color: #098AE0;
+	color: white;
+}
+
+.tbl-blue tr:hover {
+	background-color: #098AE0;
+	color: #ffffff;
+}
+
+.tbl-purple thead {
+	background-color: #A309E0;
+	color: white;
+}
+
+.tbl-purple tr:hover {
+	background-color: #A309E0;
+	color: #ffffff;
+}
+
+.tbl-special thead {
+	background: linear-gradient(to right, #E00986, #9C09E0);
+	color: white;
+}
+
+.tbl-special tr:hover {	
+	background: linear-gradient(to right, #E00986, #9C09E0);
+	color: #ffffff;
+}
+
+/*Forms*/
+
+.cmp{
+	border-radius: 0.1cm;
+	border: 2px solid gray;
+	outline: none;
+}
+
+.cmp-orange:focus{
+	border: 2px solid #E08709;
+}
+
+.cmp-green:focus{
+	border: 2px solid #71B100;
+}
+
+.cmp-blue:focus{
+	border: 2px solid #098AE0;
+}
+
+.cmp-purple:focus{
+	border: 2px solid #A309E0;
+}
+
+
+/*INDEX*/
+
+/*Boton*/
+.boton-enviar {
+	margin: 20px;
+}
+
+.boton-enviar a {
+	padding: 5px 10px;
+}
+
+
+/*Tabla de usuarios*/
+.tabla-usuarios {
+	margin: 20px;
+}
+
+.tabla-usuarios table {
+	width: 400px;
+}
+
+.tabla-usuarios tr{
+	height: 30px;
+}
+
+.tabla-usuarios td {
+	width: 33.33%;
+}
+
+/*Campo de texto*/
+.campo-texto{
+	margin: 20px;
+}
+
+.campo-texto input[type="text"]{
+	width: 250px;
+	height: 20px;
+}
